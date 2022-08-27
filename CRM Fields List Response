@@ -1,0 +1,751 @@
+{
+    "result": {
+        "ID": {
+            "type": "integer",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "ID"
+        },
+        "TITLE": {
+            "type": "string",
+            "isRequired": true,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Lead Name"
+        },
+        "HONORIFIC": {
+            "type": "crm_status",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "statusType": "HONORIFIC",
+            "title": "Salutation"
+        },
+        "NAME": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Name"
+        },
+        "SECOND_NAME": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Second name"
+        },
+        "LAST_NAME": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Last name"
+        },
+        "BIRTHDATE": {
+            "type": "date",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Date of birth"
+        },
+        "COMPANY_TITLE": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Company name"
+        },
+        "SOURCE_ID": {
+            "type": "crm_status",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "statusType": "SOURCE",
+            "title": "Source"
+        },
+        "SOURCE_DESCRIPTION": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Source information"
+        },
+        "STATUS_ID": {
+            "type": "crm_status",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "statusType": "STATUS",
+            "title": "Status"
+        },
+        "STATUS_DESCRIPTION": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Status information"
+        },
+        "STATUS_SEMANTIC_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Status details"
+        },
+        "POST": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Position"
+        },
+        "ADDRESS": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Address"
+        },
+        "ADDRESS_2": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Address (line 2)"
+        },
+        "ADDRESS_CITY": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "City"
+        },
+        "ADDRESS_POSTAL_CODE": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Zip"
+        },
+        "ADDRESS_REGION": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Region"
+        },
+        "ADDRESS_PROVINCE": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "State / Province"
+        },
+        "ADDRESS_COUNTRY": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Country"
+        },
+        "ADDRESS_COUNTRY_CODE": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Country Code"
+        },
+        "ADDRESS_LOC_ADDR_ID": {
+            "type": "integer",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Location address ID"
+        },
+        "CURRENCY_ID": {
+            "type": "crm_currency",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Currency"
+        },
+        "OPPORTUNITY": {
+            "type": "double",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Total"
+        },
+        "IS_MANUAL_OPPORTUNITY": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "IS_MANUAL_OPPORTUNITY"
+        },
+        "OPENED": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Available to everyone"
+        },
+        "COMMENTS": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Comment"
+        },
+        "HAS_PHONE": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Has phone"
+        },
+        "HAS_EMAIL": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Has email"
+        },
+        "HAS_IMOL": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Has Open Channel"
+        },
+        "ASSIGNED_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Responsible person"
+        },
+        "CREATED_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Created by"
+        },
+        "MODIFY_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Modified by"
+        },
+        "MOVED_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "MOVED_BY_ID"
+        },
+        "DATE_CREATE": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Created on"
+        },
+        "DATE_MODIFY": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Modified on"
+        },
+        "MOVED_TIME": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "MOVED_TIME"
+        },
+        "COMPANY_ID": {
+            "type": "crm_company",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Company",
+            "settings": {
+                "parentEntityTypeId": 4
+            }
+        },
+        "CONTACT_ID": {
+            "type": "crm_contact",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "isDeprecated": true,
+            "title": "Contact"
+        },
+        "CONTACT_IDS": {
+            "type": "crm_contact",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": true,
+            "isDynamic": false,
+            "title": "CONTACT_IDS"
+        },
+        "IS_RETURN_CUSTOMER": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Repeat lead"
+        },
+        "DATE_CLOSED": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Completed on"
+        },
+        "ORIGINATOR_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "External source"
+        },
+        "ORIGIN_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Item ID in data source"
+        },
+        "UTM_SOURCE": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Ad system"
+        },
+        "UTM_MEDIUM": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Medium"
+        },
+        "UTM_CAMPAIGN": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Ad campaign UTM"
+        },
+        "UTM_CONTENT": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Campaign contents"
+        },
+        "UTM_TERM": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Campaign search term"
+        },
+        "PHONE": {
+            "type": "crm_multifield",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": true,
+            "isDynamic": false,
+            "title": "Phone"
+        },
+        "EMAIL": {
+            "type": "crm_multifield",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": true,
+            "isDynamic": false,
+            "title": "E-mail"
+        },
+        "WEB": {
+            "type": "crm_multifield",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": true,
+            "isDynamic": false,
+            "title": "Website"
+        },
+        "IM": {
+            "type": "crm_multifield",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": true,
+            "isDynamic": false,
+            "title": "Messenger"
+        },
+        "LINK": {
+            "type": "crm_multifield",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": true,
+            "isDynamic": false,
+            "title": "LINK"
+        },
+        "UF_CRM_1618387990": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_1618387990",
+            "listLabel": "Industry",
+            "formLabel": "Industry",
+            "filterLabel": "Industry",
+            "settings": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            }
+        },
+        "UF_CRM_1618388133": {
+            "type": "double",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_1618388133",
+            "listLabel": "Person Phone number",
+            "formLabel": "Person Phone number",
+            "filterLabel": "Person Phone number",
+            "settings": {
+                "PRECISION": 2,
+                "SIZE": 20,
+                "MIN_VALUE": 0,
+                "MAX_VALUE": 0,
+                "DEFAULT_VALUE": ""
+            }
+        },
+        "UF_CRM_1618394300": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_1618394300",
+            "listLabel": "Custom Lead ID",
+            "formLabel": "Custom Lead ID",
+            "filterLabel": "Custom Lead ID",
+            "settings": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            }
+        },
+        "UF_CRM_1618394355": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_1618394355",
+            "listLabel": "Person Email Id",
+            "formLabel": "Person Email Id",
+            "filterLabel": "Person Email Id",
+            "settings": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            }
+        },
+        "UF_CRM_1618394421": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_1618394421",
+            "listLabel": "Designation",
+            "formLabel": "Designation",
+            "filterLabel": "Designation",
+            "settings": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            }
+        },
+        "UF_CRM_1618459770": {
+            "type": "enumeration",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "items": [
+                {
+                    "ID": "57",
+                    "VALUE": "Invalid number"
+                },
+                {
+                    "ID": "59",
+                    "VALUE": "Call picked"
+                },
+                {
+                    "ID": "61",
+                    "VALUE": "Call not picked"
+                }
+            ],
+            "title": "UF_CRM_1618459770",
+            "listLabel": "Status of Call",
+            "formLabel": "Status of Call",
+            "filterLabel": "Status of Call",
+            "settings": {
+                "DISPLAY": "LIST",
+                "LIST_HEIGHT": 3,
+                "CAPTION_NO_VALUE": "",
+                "SHOW_NO_VALUE": "Y"
+            }
+        },
+        "UF_CRM_A_W_GROUP_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_A_W_GROUP_ID",
+            "listLabel": "WhatsApp Group Id",
+            "formLabel": "WhatsApp Group Id",
+            "filterLabel": "UF_CRM_A_W_GROUP_ID",
+            "settings": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            }
+        },
+        "UF_CRM_1656400711321": {
+            "type": "enumeration",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "items": [
+                {
+                    "ID": "135",
+                    "VALUE": "IBB"
+                },
+                {
+                    "ID": "137",
+                    "VALUE": "GMG"
+                },
+                {
+                    "ID": "139",
+                    "VALUE": "GC"
+                },
+                {
+                    "ID": "171",
+                    "VALUE": "IBB - Audience"
+                },
+                {
+                    "ID": "179",
+                    "VALUE": "IBB - Public Speaking"
+                },
+                {
+                    "ID": "181",
+                    "VALUE": "IBB - Interview Request"
+                }
+            ],
+            "title": "UF_CRM_1656400711321",
+            "listLabel": "Lead Type",
+            "formLabel": "Lead Type",
+            "filterLabel": "Lead Type",
+            "settings": {
+                "DISPLAY": "LIST",
+                "LIST_HEIGHT": 1,
+                "CAPTION_NO_VALUE": "",
+                "SHOW_NO_VALUE": "Y"
+            }
+        },
+        "UF_CRM_LEAD_1660014357899": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_LEAD_1660014357899",
+            "listLabel": "",
+            "formLabel": "Type",
+            "filterLabel": "",
+            "settings": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": null
+            }
+        },
+        "UF_CRM_A_T_GROUP_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": true,
+            "title": "UF_CRM_A_T_GROUP_ID",
+            "listLabel": "Telegram Group Id",
+            "formLabel": "Telegram Group Id",
+            "filterLabel": "UF_CRM_A_T_GROUP_ID",
+            "settings": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            }
+        }
+    },
+    "time": {
+        "start": 1661587114.2878139,
+        "finish": 1661587114.32338,
+        "duration": 0.035566091537475586,
+        "processing": 0.014686107635498047,
+        "date_start": "2022-08-27T10:58:34+03:00",
+        "date_finish": "2022-08-27T10:58:34+03:00",
+        "operating_reset_at": 1661587714,
+        "operating": 0
+    }
+}
